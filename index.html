@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>広告営業のための学習用サイト</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f6f8;
+        }
+        h1 {
+            color: #1a73e8; /* Googleブルー */
+        }
+        /* id="buy-btn" のボタンに対する見た目の指定 */
+        #buy-btn {
+            background-color: #1a73e8;
+            color: white;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        /* マウスを乗せた時の変化 */
+        #buy-btn:hover {
+            background-color: #1557b0;
+        }
+    </style>
+    </head>
+<body>
+    <h1>Web計測の勉強用サイト</h1>
+    <p>このサイトを使って、タグやGA4の仕組みを学びます。</p>
+    
+    <button id="buy-btn">商品を購入する</button>
+
+    <script>
+        document.getElementById('buy-btn').addEventListener('click', function() {
+            alert('購入ボタンが押されました！');
+        });
+    </script>
+</body>
+</html>
